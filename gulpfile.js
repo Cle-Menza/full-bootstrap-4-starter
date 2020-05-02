@@ -382,7 +382,6 @@ gulp.task( 'clean', () => {
 //     }))
 // });
 
-// сборка
 gulp.task( 'build',
     gulp.series( 'clean',
         gulp.parallel(
@@ -397,7 +396,6 @@ gulp.task( 'build',
     )
 );
 
-// запуск задач при изменении файлов
 gulp.task( 'watch', () => {
     gulp.watch( config.watchStyles, gulp.parallel( 'styles' ) ); // Reload on SCSS file changes.
     gulp.watch( config.watchHtml, gulp.parallel( 'html' ) );
