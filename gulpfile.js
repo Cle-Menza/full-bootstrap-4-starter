@@ -30,19 +30,6 @@ const beep = require( 'beepbeep' );
 const include = require('gulp-include');
 const del = require('del');
 
-        // gutil         = require('gulp-util' ),
-        // sass          = require('gulp-sass'),
-        // browserSync   = require('browser-sync'),
-        // concat        = require('gulp-concat'),
-        // uglify        = require('gulp-uglify'),
-        // cleancss      = require('gulp-clean-css'),
-        // rename        = require('gulp-rename'),
-        // autoprefixer  = require('gulp-autoprefixer'),
-        // notify        = require('gulp-notify'),
-        // rsync         = require('gulp-rsync'),
-        // svgSprite     = require('gulp-svg-sprite'),
-        // svgmin        = require('gulp-svgmin');
-
 const config = {
     // productURL: './', // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
     baseDir: 'app/dist/',
